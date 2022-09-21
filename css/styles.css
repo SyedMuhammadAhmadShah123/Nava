@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+:root{
+    --color-black:rgb(25, 27, 41);
+    --color-light-black:var(rgb(25, 27, 41,0.592));
+    --color-yellow:rgb(255, 216, 0);
+    --color-light-yellow:rgb(255, 227, 71);
+}
