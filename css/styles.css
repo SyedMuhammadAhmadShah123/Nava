@@ -27,15 +27,11 @@ header{
     padding: 1em 0;
 }
 .heroSection__navbar__content{
-    /* border: 2px solid red; */
-    width: 50%;
-}
-.heroSection__navbar__content ul{
     /* border: 2px solid blue ; */
+    width: 50%;
     display: flex;
     justify-content: space-around;
     list-style: none;
-    /* padding: .5em 0; */
 }
 .heroSection__navbar__content a{
     border: 2px solid transparent;
