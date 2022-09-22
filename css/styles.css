@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
+body{
+    color: white;
+}
 :root{
     --color-white-navbar:#f3f5fd;
     --color-white-content:#f9fafe;
@@ -24,7 +27,7 @@ header{
 .heroSection__navbar{
     display: flex;
     justify-content: space-between;
-    padding: 1em 0;
+    padding: 2.5em 0;
 }
 .heroSection__navbar__content{
     /* border: 2px solid blue ; */
@@ -44,4 +47,26 @@ header{
     border: 2px solid var(--color-gray-buttonBorder);
     padding: .5em 1em;
     background-color: rgba(255, 255, 255, 0.069);
+}
+.container__content{
+    /* border:2px solid red ; */
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.container__numberBar{
+    color: var(--color-black);
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0 auto;
+}
+.container__numberBar p{
+    margin: 0;
+}
+.sectionA{
+    color: var(--color-black);
+    text-align: center;
 }
