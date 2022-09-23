@@ -8,8 +8,6 @@
     <title>Nava - home</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,29 +31,33 @@
             </nav>
 
             <!-- col12 or col -->
-            <div class="col-12 container__content">
-                <div class="container__content__text">
+            <div class="col-12 heroSection__content">
+                <div class="heroSection__content__text">
                     <h1>RESERVE A BOAT NOW!</h1>
                     <h5>AND SET SAILS INTO PARADISE!</h5>
                 </div>
-                <form>
-                    <input type="search">
+                <form class="input-group mb-3">
+                        <input type="text" class="form-control heroSection__input" placeholder="WHAT IS YOUR DESTINATION, SAILOR?" aria-label="WHAT IS YOUR DESTINATION, SAILOR?" aria-describedby="basic-addon2">
+                        <span class="input-group-text heroSection__inputIcon" id="basic-addon2">
+                            <img src="assets/images/icons/boat.png" alt="boat">
+                            <label>FIND A BOAT</label>
+                        </span>
                 </form>
             </div>
-            <div class="container__numberBar">
-                <div class="container__numberBar__number">
+            <div class="heroSection__numberBar">
+                <div class="container__numberBar__number container__numberBar__number--border">
                     <p>2,300</p>
-                    <p>destination</p>
+                    <p>Destination</p>
                 </div>
-                <div class="container__numberBar__number">
+                <div class="container__numberBar__number  container__numberBar__number--border">
                     <p>1,000</p>
                     <p>Cities</p>
                 </div>
-                <div class="container__numberBar__number">
+                <div class="container__numberBar__number  container__numberBar__number--border">
                     <p>35,000</p>
                     <p>Boats</p>
                 </div>
-                <div class="container__numberBar__number">
+                <div class="container__numberBar__number" style="padding: .8em;">
                     <p>50,000</p>
                     <p>Sailors</p>
                 </div>
@@ -165,7 +167,43 @@
         </div>
     </footer>
 
+    <!-- JavaScript Bundle without Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 
-</body>
+    <div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon1">@</span>
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="WHAT IS YOUR DESTINATION SAILOR?" aria-label="WHAT IS YOUR DESTINATION SAILOR?" aria-describedby="basic-addon2">
+  <span class="input-group-text" id="basic-addon2">@example.com</span>
+</div>
+
+<label for="basic-url" class="form-label">Your vanity URL</label>
+<div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+  <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+</div>
+
+<div class="input-group mb-3">
+  <span class="input-group-text">$</span>
+  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+  <span class="input-group-text">.00</span>
+</div>
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+  <span class="input-group-text">@</span>
+  <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+</div>
+
+<div class="input-group">
+  <span class="input-group-text">With textarea</span>
+  <textarea class="form-control" aria-label="With textarea"></textarea>
+</div>
+
+    </body>
 
 </html>

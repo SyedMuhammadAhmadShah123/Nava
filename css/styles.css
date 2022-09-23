@@ -27,7 +27,7 @@ header{
 .heroSection__navbar{
     display: flex;
     justify-content: space-between;
-    padding: 2.5em 0;
+    padding-top: 2em ;
 }
 .heroSection__navbar__content{
     /* border: 2px solid blue ; */
@@ -48,23 +48,65 @@ header{
     padding: .5em 1em;
     background-color: rgba(255, 255, 255, 0.069);
 }
-.container__content{
+.heroSection__input{
+    border-radius: 3px;
+    /* padding-left:2em 0; */
+    font-size: .8rem;
+}
+.heroSection__inputIcon{
+    border-radius: 3px;
+    font-size: small;
+    color: white;
+    background-color:var(--color-pink);
+    /* padding: 2em 4em; */
+    /* margin: 2em 0; */
+}
+.heroSection__content{
     /* border:2px solid red ; */
     display: grid;
     justify-content: center;
     text-align: center;
 }
-.container__numberBar{
+.heroSection{
+    position: relative;
+}
+.heroSection__numberBar{
     color: var(--color-black);
     background-color: white;
     border-radius: 3px;
     display: flex;
-    justify-content: space-around;
-    width: 60%;
+    justify-content: space-evenly;
+    width: 50%;
     margin: 0 auto;
+    position: absolute;
+    top: 90% ;
+    left: 25%; 
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.237);
 }
-.container__numberBar p{
+.heroSection__numberBar p{
     margin: 0;
+}
+.container__numberBar__number--border p{
+    border-right: .5px solid var(--color-gray-buttonBorder);
+    padding-right:3em;
+    text-align: center;
+}
+.container__numberBar__number p:nth-child(1){
+    font-weight: 700;
+}
+.container__numberBar__number p:nth-child(2){
+    color: var(--color-gray-placeholder);
+    font-size: small;
+}
+.container__numberBar__number--border{
+ padding: .8em 0;
+}
+.heroSection__content__text{
+    padding-top: 9em;
+    padding-bottom: 1.5em;
+}
+.heroSection form{
+    padding-bottom: 10em;
 }
 .sectionA{
     color: var(--color-black);
