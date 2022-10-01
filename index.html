@@ -19,7 +19,7 @@
 <body>
     <header class="cotainer-fluid header">
         <div class="container heroSection">
-            <nav class="heroSection__navbar">
+            <!-- <nav class="heroSection__navbar">
                 <a href="#">
                     <img src="assets/images/logo.png" alt="">
                 </a>
@@ -33,8 +33,25 @@
                     <li><a href="#">ADD YOUR BOAT</a></li>
                     <li><a href="#">SIGN UP</a></li>
                 </ul>
+            </nav> -->
+            
+            <!-- boostrap navbar -->
+            <nav class="heroSection__navbar navbar navbar-expand-lg navbar-dark">
+                <a href="#" class="navbar-brand">
+                    <img src="assets/images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" data-toggle="collapse" type="button" data-target="#navbar-content">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-content">
+                    <ul class="heroSection__navbar__content navbar-nav mx-auto">
+                        <li class="navbar-nav"><a href="#" class="nav-link">TOP DESTINATIONS</a></li>
+                        <li class="navbar-nav"><a href="#" class="nav-link">ADD YOUR BOAT</a></li>
+                        <li class="navbar-nav"><a href="#" class="nav-link">SIGN UP</a></li>
+                    </ul>
+                </div>
             </nav>
-
+            
             <!-- col12 or col -->
             <div class="col-12 heroSection__content">
                 <div class="heroSection__content__text">
@@ -339,7 +356,7 @@
                     </form> -->
                     <form class="input-group mb-3">
                         <input type="text" class="form-control heroSection__input"
-                            placeholder="Your eamil adress" aria-label="Your eamil adress"
+                            placeholder="Your email adress" aria-label="Your email adress"
                             aria-describedby="basic-addon2">
                         <span class="input-group-text heroSection__inputIcon" id="basic-addon2">
                             <label>SUBSCRIBE</label>
@@ -378,6 +395,7 @@
         </div>
     </footer>
 
+    <!-- <script src="js/hamburger.js"></script> -->
     <!-- JavaScript Bundle without Popper -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
