@@ -39,7 +39,7 @@ Project is:  _complete_ / _no longer being worked on_.
 
 
 ## Contact
-Created by [@ahmad](https://ahmad53shah@gmail.com) - feel free to contact me!
+Created by [@ahmad](mailto:ahmad53shah@gmail.com) - feel free to contact me!
 
 
 
